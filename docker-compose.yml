@@ -23,7 +23,7 @@ services:
     container_name: kibana
     environment:
       - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
-      - ELASTICSEARCH_SERVICEACCOUNTTOKEN=AAEAAWVsYXN0aWMva2liYW5hL2tpYmFuYTpJLXQzd2hCNFJfQ0pFUlpJU2ExWmJR
+      - ELASTICSEARCH_SERVICEACCOUNTTOKEN=YOUR-SERVICE-TOKEN
     ports:
       - "5601:5601"
     depends_on:
