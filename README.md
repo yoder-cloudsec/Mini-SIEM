@@ -35,7 +35,7 @@ Python 3.10+ (if you want to run scripts outside Docker)
 ## Setup and Installation
 Clone the repository:
 
-``git clone https://github.com/yourusername/mini-siem.git``
+``git clone https://github.com/yoder-cloudsec/mini-siem.git``
 
 ``cd mini-siem``
 
